@@ -15,7 +15,7 @@ D:/UnityProjects/GameJamOneShot/GameJamOneShot
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54637
+58518
 Successfully changed project path to: D:/UnityProjects/GameJamOneShot/GameJamOneShot
 D:/UnityProjects/GameJamOneShot/GameJamOneShot
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/UnityProjects/GameJamOneShot/GameJamOneShot
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1448] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1760765742 [EditorId] 1760765742 [Version] 1048832 [Id] WindowsEditor(7,Daniil_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23932] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3196774357 [EditorId] 3196774357 [Version] 1048832 [Id] WindowsEditor(7,Daniil_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1448] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1760765742 [EditorId] 1760765742 [Version] 1048832 [Id] WindowsEditor(7,Daniil_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23932] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3196774357 [EditorId] 3196774357 [Version] 1048832 [Id] WindowsEditor(7,Daniil_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -80,8 +80,8 @@ Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngine
 Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005799 seconds.
-- Loaded All Assemblies, in  0.275 seconds
+Registered in 0.006135 seconds.
+- Loaded All Assemblies, in  0.290 seconds
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -92,40 +92,40 @@ Native extension for AppleTV target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 226 ms
+Android Extension - Scanning For ADB Devices 208 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.505 seconds
-Domain Reload Profiling: 780ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 784ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (40ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
 	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (89ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
+		AnalyzeDomain (110ms)
 			TypeCache.Refresh (109ms)
 				TypeCache.ScanAssembly (99ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (505ms)
+	FinalizeReload (495ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (461ms)
+		SetupLoadedEditorAssemblies (446ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (338ms)
+			InitializePlatformSupportModulesInManaged (315ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -135,8 +135,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\GameJamOneShot\GameJamOneShot\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\GameJamOneShot\GameJamOneShot\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.465 seconds
-Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.527 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -146,48 +146,199 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.441 seconds
-Domain Reload Profiling: 906ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 1003ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (292ms)
-		LoadAssemblies (228ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (251ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (96ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (442ms)
+	FinalizeReload (477ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (304ms)
+		SetupLoadedEditorAssemblies (331ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (185ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4008 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 69 unused Assets / (244.6 KB). Loaded Objects now: 4467.
 Memory consumption went from 141.8 MB to 141.6 MB.
-Total: 3.491500 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.118000 ms MarkObjects: 2.804900 ms  DeleteObjects: 0.219700 ms)
+Total: 3.605100 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.129700 ms MarkObjects: 2.932500 ms  DeleteObjects: 0.202700 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47112.475441 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/rat-charset.png
+  artifactKey: Guid(cb3ce6e022f74d349ab0f84b919c29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/rat-charset.png using Guid(cb3ce6e022f74d349ab0f84b919c29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccd37226f7ec48331a6af3d25f53545') in 0.072691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/minoson.png
+  artifactKey: Guid(d9256b79434668b4f8c26b587ebcd629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/minoson.png using Guid(d9256b79434668b4f8c26b587ebcd629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40aa4ba255d8036bf97e5598fc75474') in 0.057321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/swinging scythe-correct.png
+  artifactKey: Guid(91a4778ae8938bc49b148811df6204f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/swinging scythe-correct.png using Guid(91a4778ae8938bc49b148811df6204f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fc761d43411656cb623a530bd88b64') in 0.046231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/rat-charset-with-shadow.png
+  artifactKey: Guid(4b54c7d259cc8cf458c9649c1b5e91aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/rat-charset-with-shadow.png using Guid(4b54c7d259cc8cf458c9649c1b5e91aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305fee5c87b7f82883440fe5abfa519f') in 0.031501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/water-fountain.png
+  artifactKey: Guid(d5af8a73ef5f32f4f9014bd3accb4598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/water-fountain.png using Guid(d5af8a73ef5f32f4f9014bd3accb4598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe49ec09099283951b60a521681944f') in 0.042405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/minoson-axt.png
+  artifactKey: Guid(dd83ea460357f01498116d0d315c2edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/minoson-axt.png using Guid(dd83ea460357f01498116d0d315c2edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5601aeae6bfd7d98797eee1af4f1db23') in 0.032311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/trittplatte.png
+  artifactKey: Guid(9884a1a5d6da488428bdebbef6a9e7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/trittplatte.png using Guid(9884a1a5d6da488428bdebbef6a9e7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e2dd7e3b7517d2a5c793d13de0917c') in 0.015734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/drain-blood.png
+  artifactKey: Guid(408c8d522042ecf4eadc2fbcea1751a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/drain-blood.png using Guid(408c8d522042ecf4eadc2fbcea1751a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92668ea4e7d92d6dd856927bc66c470') in 0.030857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Evil Dungeon/Evil Dungeon/autotile purple brick.png
+  artifactKey: Guid(26fd6241bc1352f47be184a60ffe3f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Dungeon/Evil Dungeon/autotile purple brick.png using Guid(26fd6241bc1352f47be184a60ffe3f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ced6d17a3883a137a919222184b315f') in 0.014377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 35.813508 seconds.
+  path: Assets/RF_Catacombs_v1.0/candleA_03.png
+  artifactKey: Guid(6fcf5286be6074f47869161809ece87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF_Catacombs_v1.0/candleA_03.png using Guid(6fcf5286be6074f47869161809ece87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d5e658e96cee773d9c8b619cdabfd9') in 0.013596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RF_Catacombs_v1.0/candleB_02.png
+  artifactKey: Guid(cf9653271d2881c44a41f25787db4494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF_Catacombs_v1.0/candleB_02.png using Guid(cf9653271d2881c44a41f25787db4494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12711bd4f9f17d48a14a52ef0186b836') in 0.017038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RF_Catacombs_v1.0/candleB_01.png
+  artifactKey: Guid(266662d6531e96a4abea093d6612b8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF_Catacombs_v1.0/candleB_01.png using Guid(266662d6531e96a4abea093d6612b8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d67e472534aa1c6770298c2e8e4a6') in 0.012179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037489 seconds.
+  path: Assets/RF_Catacombs_v1.0/spike_1.png
+  artifactKey: Guid(c56aa826bc3218b4eb3b58849f93e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF_Catacombs_v1.0/spike_1.png using Guid(c56aa826bc3218b4eb3b58849f93e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c79474c2aa3107acde6bb160ca067') in 0.020228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025212 seconds.
+  path: Assets/RF_Catacombs_v1.0/spike_4.png
+  artifactKey: Guid(1efac3fcab256a545ad27b29d743f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF_Catacombs_v1.0/spike_4.png using Guid(1efac3fcab256a545ad27b29d743f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f92885cbf7960f1fa2b3d2d9330aa30') in 0.195081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RF_Catacombs_v1.0/torch_3.png
+  artifactKey: Guid(39a7262f1942d8f408e9e18574bd270c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF_Catacombs_v1.0/torch_3.png using Guid(39a7262f1942d8f408e9e18574bd270c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c8694a15086ab5c5d22303ed8bb623') in 0.018698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.270308 seconds.
+  path: Assets/RF_Catacombs_v1.0/PSD/Anim/torch.psd
+  artifactKey: Guid(23ad97d76d837d7448633f4bc36e8f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF_Catacombs_v1.0/PSD/Anim/torch.psd using Guid(23ad97d76d837d7448633f4bc36e8f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5400c61c45c3ef89af35f76bc7a58292') in 0.015308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (196.4 KB). Loaded Objects now: 4503.
+Memory consumption went from 78.4 MB to 78.2 MB.
+Total: 3.675700 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.139000 ms MarkObjects: 3.066800 ms  DeleteObjects: 0.129000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -202,3 +353,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112.650177 seconds.
+  path: Assets/blpixelartist_Skeleton Army/Skeleton_Crossbowman.png
+  artifactKey: Guid(6145e39b07392ea4788867d997c1b989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blpixelartist_Skeleton Army/Skeleton_Crossbowman.png using Guid(6145e39b07392ea4788867d997c1b989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a9b39e25b89d8b7201e831ffc02e43') in 0.042183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/blpixelartist_Skeleton Army/Skeleton_Spearman Armored.png
+  artifactKey: Guid(409b34b5e8b639c4895ff6b649bd434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blpixelartist_Skeleton Army/Skeleton_Spearman Armored.png using Guid(409b34b5e8b639c4895ff6b649bd434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a711a04ff2ee7a23c3abfa035bd78844') in 0.014387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/blpixelartist_Skeleton Army/Skeleton_Spearman Not Armored.png
+  artifactKey: Guid(cc6fc502e20938d438f81e2e52faaa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blpixelartist_Skeleton Army/Skeleton_Spearman Not Armored.png using Guid(cc6fc502e20938d438f81e2e52faaa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd561d89dfcbbf4892f5e04dbf03d801') in 0.017539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/blpixelartist_Skeleton Army/Skeleton_Great Swordman.png
+  artifactKey: Guid(9778636eef1099242abd8a8e1bdb450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blpixelartist_Skeleton Army/Skeleton_Great Swordman.png using Guid(9778636eef1099242abd8a8e1bdb450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada20fe92ce595ba5930f5351cbd88bb') in 0.026948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/blpixelartist_Skeleton Army/Skeleton_Mage Not Hooded.png
+  artifactKey: Guid(272924402f22b7d4da32fccb26f248f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blpixelartist_Skeleton Army/Skeleton_Mage Not Hooded.png using Guid(272924402f22b7d4da32fccb26f248f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019a2d18b0dff1210075a825676d2c37') in 0.021228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/blpixelartist_Skeleton Army/Skeleton_Flaming Skull.png
+  artifactKey: Guid(5cc9dec0535915348ac367c5624c59c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blpixelartist_Skeleton Army/Skeleton_Flaming Skull.png using Guid(5cc9dec0535915348ac367c5624c59c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bfd2c456563d7f81f33ecc1105f275') in 0.015601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab; // Префаб вашего врага
+    public GameObject[] enemyPrefabs; // Массив префабов врагов
     public Transform player; // Ссылка на трансформ игрока
     public float minSpawnRadius = 3.0f; // Минимальный радиус появления врагов
     public float maxSpawnRadius = 5.0f; // Максимальный радиус появления врагов
@@ -32,6 +32,10 @@ public class EnemySpawner : MonoBehaviour
         // Вычисляем позицию на кольце
         Vector3 spawnPosition = new Vector3(Mathf.Cos(randomAngle), 0f, Mathf.Sin(randomAngle)) * spawnRadius + player.position;
 
-        Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        // Выбираем случайного врага из массива префабов
+        GameObject randomEnemyPrefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+
+        // Спавним выбранного врага
+        Instantiate(randomEnemyPrefab, spawnPosition, Quaternion.identity);
     }
 }
